@@ -5,6 +5,7 @@
                     <div class="text-center">
 
                         <img src="{{ asset('img/ryanfulton_logo.png') }}"/>
+                        Test
                     </div>
                 </div>
             </div>
