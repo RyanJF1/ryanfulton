@@ -18,23 +18,12 @@
                     <div class="card-header">{{ __('Welcome to my portfolio!') }}</div>
 
                     <div class="card-body">
-                        @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                        @endif
 
-                        {{ __('Resume') }}
+                        {{{ ('It\'s a work in progress, but there is much to come!') }}}
                     </div>
 
                     <div class="card-body">
-                        @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                        @endif
-
-                        {{ __('Projects') }}
+                        {!! ('In the meantime, check out my projects on <a href="https://github.com/RyanJF1">GitHub</a> or see what I\'m up to on <a href="https://linkedin.com/in/ryan-fulton">LinkedIn</a>.') !!}
                     </div>
                 </div>
             </div>
