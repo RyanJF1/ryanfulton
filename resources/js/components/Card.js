@@ -19,9 +19,7 @@ function Card(props) {
 export default Card;
 
 if (document.getElementById('card')) {
-
     const component = document.getElementById('card');
     const props = Object.assign({}, component.dataset);
-
     ReactDOM.render(<Card {...props} />, component);
 }

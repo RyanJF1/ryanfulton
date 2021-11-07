@@ -12,8 +12,8 @@
     </div>
 
     <div class="container">
-        <div id="card" data-title="Welcome to my portfolio!" data-body="It's a work in progress, but there is much more to come!">
-        </div>
+        <div id="card" style="margin-bottom: 10px;" data-title="Welcome to my portfolio!" data-body="It's a work in progress, but there is much more to come!"></div>
+        <div id="textbox" data-body="In the meantime, check out my projects on GitHub or see what I'm up to on LinkedIn."></div>
     </div>
 
 </body>
