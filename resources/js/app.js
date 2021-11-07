@@ -15,3 +15,4 @@ require('./bootstrap');
 require('./components/Example');
 require('./components/Card');
 require('./components/TextBox');
+require('./components/Button');

@@ -12,8 +12,9 @@
     </div>
 
     <div class="container">
-        <div id="card" style="margin-bottom: 10px;" data-title="Welcome to my portfolio!" data-body="It's a work in progress, but there is much more to come!"></div>
-        <div id="textbox" data-body="In the meantime, check out my projects on GitHub or see what I'm up to on LinkedIn."></div>
+        <div id="card" style="margin: 10px;" data-title="Welcome to my portfolio!" data-body="It's a work in progress, but there is much more to come!"></div>
+        <div id="textbox" style="margin: 10px;" data-body="In the meantime, check out my projects on GitHub or see what I'm up to on LinkedIn."></div>
+        <div id="button" style="margin: 10px;" data-class="btn btn-primary btn-lg" data-link='https://www.github.com/RyanJF1' data-text="GitHub"></div>
     </div>
 
 </body>
