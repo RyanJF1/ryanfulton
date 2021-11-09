@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function TextBox(props) {
+function Textbox(props) {
     return (
         <div className="container">
             <div className="row justify-content-center">
@@ -15,10 +15,4 @@ function TextBox(props) {
     );
 }
 
-export default TextBox;
-
-if (document.getElementById('textbox')) {
-    const component = document.getElementById('textbox');
-    const props = Object.assign({}, component.dataset);
-    ReactDOM.render(<TextBox {...props} />, component);
-}
+export default Textbox;

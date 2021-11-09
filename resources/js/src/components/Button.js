@@ -17,9 +17,3 @@ function Button(props) {
 }
 
 export default Button;
-
-if (document.getElementById('button')) {
-    const component = document.getElementById('button');
-    const props = Object.assign({}, component.dataset);
-    ReactDOM.render(<Button {...props} />, component);
-}

@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+require('../css/app.css');
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -12,7 +13,26 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
-require('./components/Card');
-require('./components/TextBox');
-require('./components/Button');
+ import React from 'react';
+ import ReactRenderer from './src/ReactRenderer';
+
+ import Card from './src/components/Card';
+ import Button from './src/components/Button';
+ import Textbox from './src/components/TextBox';
+
+ const components = [
+   {
+     name: "Card",
+     component: <Card />,
+   },
+   {
+    name: "Button",
+    component: <Button />,
+  },
+  {
+    name: "Textbox",
+    component: <Textbox />,
+  },
+ ]
+
+ new ReactRenderer(components).renderAll()
