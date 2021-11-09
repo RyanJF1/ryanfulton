@@ -16,9 +16,13 @@ require('../css/app.css');
  import React from 'react';
  import ReactRenderer from './src/ReactRenderer';
 
+require('./src/components/Card');
+require('./src/components/Button');
+require('./src/components/Textbox');
+
  import Card from './src/components/Card';
  import Button from './src/components/Button';
- import Textbox from './src/components/TextBox';
+ import Textbox from './src/components/Textbox';
 
  const components = [
    {
@@ -35,4 +39,4 @@ require('../css/app.css');
   },
  ]
 
- new ReactRenderer(components).renderAll()
+ new ReactRenderer(components).renderAll();
