@@ -7,30 +7,26 @@ Site built using Laravel + React
 View the ryanfulton repository on GitHub: https://github.com/RyanJF1/ryanfulton
 ## Start
 
-Default Login
+1. `composer install` to install vendor folder
+2. `npm install` to install node_modules folder
+3.  Rename .env.example to .env and configure environment
+3. `php artisan key:generate` to generate APP_KEY
+3. `docker-compose build` to build containers
+4. `docker-compose up -d` to bring containers up in detached mode
+5. `docker-compose run app php artisan migrate --seed` to migrate and seed database
+
+Web App: http://localhost:9000
+Database: http://localhost:9001
+
+Web App Login
 Username: `admin@localhost`
 Password: `password`
 
-Adding to webserver
-1. Clone repo to repositories
-2. SSH into webserver, CD to repo, and run `composer update` to install dependencies
-3. Change index.php lines to 
-`require __DIR__.'/../../repositories/<repo>/vendor/autoload.php';`
-`$app = require_once __DIR__.'/../../repositories/<repo>/bootstrap/app.php';`
-4. Configure database
-5. Configure environment file: /.env
-5. Migrate the database with `php artisan migrate refresh --seed`
+Database Login
+Username: `admin`
+Password: `password`
 
+Run commands inside container with `docker-compose run app <comamnd>`
 ## Help
-
-Fix character length error:
-    Change config/database.php:
-    `'charset' => 'utf8',`
-    `'collation' => 'utf_unicode_ci',`
-
-Run dev server: `php artisan serve`
-Composer update: `composer update`
-Composer install: `composer install`
-Rebuild database: `php artisan migrate:refresh --seed`
 
 Build code: `npm run watch`
