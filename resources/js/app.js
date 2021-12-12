@@ -13,30 +13,6 @@ require('../css/app.css');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
- import React from 'react';
- import ReactRenderer from './src/ReactRenderer';
+import Textbox from './src/components/Textbox';
+import Navbar from './src/components/Navbar';
 
-require('./src/components/Card');
-require('./src/components/Button');
-require('./src/components/Textbox');
-
- import Card from './src/components/Card';
- import Button from './src/components/Button';
- import Textbox from './src/components/Textbox';
-
- const components = [
-   {
-     name: "Card",
-     component: <Card />,
-   },
-   {
-    name: "Button",
-    component: <Button />,
-  },
-  {
-    name: "Textbox",
-    component: <Textbox />,
-  },
- ]
-
- new ReactRenderer(components).renderAll();
