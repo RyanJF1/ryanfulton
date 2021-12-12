@@ -17,3 +17,8 @@ function Button(props) {
 }
 
 export default Button;
+
+ReactDOM.render(
+    <Button />,
+    document.getElementById('button')
+  );

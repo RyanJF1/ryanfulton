@@ -17,3 +17,8 @@ function Card(props) {
 }
 
 export default Card;
+
+ReactDOM.render(
+    <Card />,
+    document.getElementById('card')
+  );
