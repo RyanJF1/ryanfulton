@@ -11,10 +11,9 @@
         </div>
     </div>
 
-    <div class="container">
-        <div><Card title="Welcome to my portfolio!" body="It's a work in progress, but there is much more to come!"/></div>
-        <div><Textbox body="In the meantime, check out my projects on GitHub or see what I'm up to on LinkedIn."/></div>
-    </div>
+    <div id="card"></div>
+    <div id="textbox"></div>
+
 
 </body>
 @endsection
