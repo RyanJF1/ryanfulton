@@ -19,6 +19,7 @@ Requirements:
 4. `php artisan key:generate` to generate APP_KEY
 5. `docker-compose build` to build containers
 6. `docker-compose up -d` to bring containers up in detached mode
+7.  Build code with `npm run dev`
 
 Web App: http://localhost:9000
 
@@ -26,8 +27,6 @@ Web App Login
 Username: `admin@localhost`
 Password: `password`
 
-Run commands inside container with `docker-compose run app <comamnd>`
-Build code: `npm run watch`
 ## Help
 
-
+Run commands inside container with `docker-compose run app <comamnd>`
