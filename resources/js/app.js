@@ -4,8 +4,9 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+require('bootstrap');
 require('../css/app.css');
+
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -13,3 +14,9 @@ require('../css/app.css');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
+require('./src/components/Navigationbar');
+require('./src/components/About');
+require('./src/components/Projects');
+require('./src/components/Skills');
+require('./src/components/Contact');
