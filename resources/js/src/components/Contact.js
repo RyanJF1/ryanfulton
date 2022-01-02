@@ -12,7 +12,6 @@ export default function Contact() {
                                 ADDRESS
                             </h3>
                             <p className="mt-1">
-
                                 Atlanta, GA 30308
                             </p>
                         </div>
@@ -20,7 +19,7 @@ export default function Contact() {
                             <h3 className="title-font font-semibold text-black tracking-widest text-xs">
                                 EMAIL
                             </h3>
-                            <a className="text-indigo-400 leading-relaxed">
+                            <a className="text-indigo-400 leading-relaxed" href = "mailto: ryan.j.fulton@gmail.com">
                                 ryan.j.fulton@gmail.com
                             </a>
                             <h3 className="title-font font-semibold text-black tracking-widest text-xs mt-4">

@@ -14,9 +14,9 @@
 
     <div class="container">
         <div id="navbar"></div>
-        <div id="about"></div>
-        <div id="projects"></div>
-        <div id="skills"></div>
+        <div class="mt-5" id="about"></div>
+        <div class="mt-5" id="projects"></div>
+        <div class="mt-5" id="skills"></div>
         <div id="contact"></div>
     </div>
 
