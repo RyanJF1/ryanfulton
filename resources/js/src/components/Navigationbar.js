@@ -6,13 +6,13 @@ function Navigationbar() {
     return (
         <>
             <Navbar bg="light" variant="light">
-                {/* <Container>
+                <Container>
                     <Navbar.Brand href="#home">
 
-                        <h1 className="d-inline-block align-top" style={{ fontFamily: 'Sigmar One' }}>Ryan Fulton</h1>
+                        <h1 className="d-inline-block align-top" >Ryan Fulton | Portfolio | WIP</h1>
 
                     </Navbar.Brand>
-                </Container> */}
+                </Container>
             </Navbar>
         </>
     );
