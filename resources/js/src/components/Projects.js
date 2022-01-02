@@ -4,7 +4,7 @@ import { Card, CardGroup } from 'react-bootstrap';
 
 function Projects() {
     return (
-        <div className=" items-center text-center">
+        <div className=" items-center text-center d-flex" >
             <CardGroup>
                 <Card>
                     <Card.Img variant="top" />
