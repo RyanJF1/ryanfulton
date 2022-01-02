@@ -9,7 +9,7 @@ function Navigationbar() {
                 <Container>
                     <Navbar.Brand href="#home">
 
-                        <h1 className="d-inline-block align-top" >Ryan Fulton | Portfolio | WIP</h1>
+                        <h1 className="d-inline-block align-top" >Ryan Fulton | Portfolio</h1>
 
                     </Navbar.Brand>
                 </Container>
