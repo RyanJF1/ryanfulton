@@ -2,23 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Card, CardGroup } from 'react-bootstrap';
 
+
 function Projects() {
     return (
         <div className=" items-center text-center " >
             <CardGroup>
                 <Card>
-                    {/* <Card.Img variant="top" /> */}
                     <Card.Body>
                         <Card.Title>Job Monitor ( Coming soon )</Card.Title>
                         <Card.Text>
                             Web App to monitor job applications. Built with Laravel and React.
                         </Card.Text>
                     </Card.Body>
-
                 </Card>
-
                 <Card>
-                    {/* <Card.Img variant="top" /> */}
                     <Card.Body>
                         <Card.Title>GitHub</Card.Title>
                         <Card.Text>
@@ -26,9 +23,7 @@ function Projects() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
                 <Card>
-                    {/* <Card.Img variant="top" /> */}
                     <Card.Body>
                         <Card.Title>Academic Projects</Card.Title>
                         <Card.Text>
@@ -36,9 +31,7 @@ function Projects() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
                 <Card>
-                    {/* <Card.Img variant="top" /> */}
                     <Card.Body>
                         <Card.Title>LinkedIn</Card.Title>
                         <Card.Text>

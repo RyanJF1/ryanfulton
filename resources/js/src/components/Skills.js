@@ -1,26 +1,39 @@
 import ReactDOM from "react-dom";
 import React from "react";
+import Image from 'react-bootstrap/Image';
+import { Card, CardGroup } from "react-bootstrap";
 
 export default function Skills() {
     return (
-        <section id="about">
-          <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              {/* <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-                Hi, I'm Ryan.
-                <br className="hidden lg:inline-block" />I love to build amazing
-                apps.
-              </h1> */}
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <>
+            <div className=" items-center text-center " >
+
+                <Image className="mx-5" style={{ width: "135px", height: "135px" }} src={"./images/laravellogo.png"} />
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/dockerlogo.png"} />
+
+                <Image className="mx-5" style={{ width: "180px", height: "120px" }} src={"./images/phplogo.png"} />
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/javalogo.png"} />
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/awslogo.png"} />
 
             </div>
-          </div>
-        </section>
-      );
+            <div className=" items-center text-center mt-5" >
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/csslogo.png"} />
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/gitlogo.png"} />
+
+                <Image className="mx-5" style={{ width: "144px", height: "144px" }} src={"./images/htmllogo.png"} />
+
+
+            </div>
+        </>
+    );
 }
 
 ReactDOM.render(
-    <Skills/>,
+    <Skills />,
     document.getElementById('skills')
 );

@@ -4298,22 +4298,80 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Image */ "./node_modules/react-bootstrap/esm/Image.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
 
+
+
+
 function Skills() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("section", {
-    id: "about",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "container mx-auto flex px-10 py-20 md:flex-row flex-col items-center",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: " items-center text-center ",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "135px",
+          height: "135px"
+        },
+        src: "./images/laravellogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/dockerlogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "180px",
+          height: "120px"
+        },
+        src: "./images/phplogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/javalogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/awslogo.png"
       })]
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: " items-center text-center mt-5",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/csslogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/gitlogo.png"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "mx-5",
+        style: {
+          width: "144px",
+          height: "144px"
+        },
+        src: "./images/htmllogo.png"
+      })]
+    })]
   });
 }
 react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(Skills, {}), document.getElementById('skills'));
@@ -11696,6 +11754,85 @@ const Fade = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(({
 Fade.defaultProps = defaultProps;
 Fade.displayName = 'Fade';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Fade);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/Image.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Image.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "propTypes": () => (/* binding */ propTypes),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+const propTypes = {
+  /**
+   * @default 'img'
+   */
+  bsPrefix: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+
+  /**
+   * Sets image as fluid image.
+   */
+  fluid: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+
+  /**
+   * Sets image shape as rounded.
+   */
+  rounded: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+
+  /**
+   * Sets image shape as circle.
+   */
+  roundedCircle: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+
+  /**
+   * Sets image shape as thumbnail.
+   */
+  thumbnail: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool)
+};
+const defaultProps = {
+  fluid: false,
+  rounded: false,
+  roundedCircle: false,
+  thumbnail: false
+};
+const Image = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(({
+  bsPrefix,
+  className,
+  fluid,
+  rounded,
+  roundedCircle,
+  thumbnail,
+  ...props
+}, ref) => {
+  bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'img');
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+    // eslint-disable-line jsx-a11y/alt-text
+    ref: ref,
+    ...props,
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, fluid && `${bsPrefix}-fluid`, rounded && `rounded`, roundedCircle && `rounded-circle`, thumbnail && `${bsPrefix}-thumbnail`)
+  });
+});
+Image.displayName = 'Image';
+Image.defaultProps = defaultProps;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Image);
 
 /***/ }),
 
