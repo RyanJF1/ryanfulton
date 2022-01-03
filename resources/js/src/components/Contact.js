@@ -8,7 +8,7 @@ export default function Contact() {
             <div className="bottom-0 ">
                 <div className="items-center text-center">
                     <Image className="mx-5" style={{ width: "48px", height: "48px" }} src={"./images/locationicon.png"}></Image>
-                        Atlanta, GA 30308
+                        Atlanta, GA
                     <Image className="mx-5" style={{ width: "48px", height: "48px" }} src={"./images/emailicon.png"}></Image>
                     <a className="text-indigo-400 leading-relaxed" href="mailto: ryan.j.fulton@gmail.com">
                         ryan.j.fulton@gmail.com
