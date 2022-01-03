@@ -4,8 +4,9 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+require('bootstrap');
 require('../css/app.css');
+
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -13,30 +14,9 @@ require('../css/app.css');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
- import React from 'react';
- import ReactRenderer from './src/ReactRenderer';
 
-require('./src/components/Card');
-require('./src/components/Button');
-require('./src/components/Textbox');
-
- import Card from './src/components/Card';
- import Button from './src/components/Button';
- import Textbox from './src/components/Textbox';
-
- const components = [
-   {
-     name: "Card",
-     component: <Card />,
-   },
-   {
-    name: "Button",
-    component: <Button />,
-  },
-  {
-    name: "Textbox",
-    component: <Textbox />,
-  },
- ]
-
- new ReactRenderer(components).renderAll();
+require('./src/components/Navigationbar');
+require('./src/components/About');
+require('./src/components/Projects');
+require('./src/components/Skills');
+require('./src/components/Contact');
