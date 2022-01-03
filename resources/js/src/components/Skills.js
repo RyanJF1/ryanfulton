@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import Image from 'react-bootstrap/Image';
-import { Card, CardGroup } from "react-bootstrap";
 
 export default function Skills() {
     return (
