@@ -9,7 +9,7 @@ function Projects() {
             <CardGroup>
                 <Card>
                     <Card.Body>
-                        <Card.Title>Job Monitor ( Coming soon )</Card.Title>
+                        <Card.Title><Card.Link href="https://jobmonitor.ryanfulton.co">JobMonitor</Card.Link></Card.Title>
                         <Card.Text>
                             Web App to monitor job applications. Built with Laravel and React.
                         </Card.Text>

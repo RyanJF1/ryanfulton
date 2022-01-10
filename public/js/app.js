@@ -4134,7 +4134,7 @@ function Contact() {
             height: "48px"
           },
           src: "./images/locationicon.png"
-        }), "Atlanta, GA 30308", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        }), "Atlanta, GA", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_3__["default"], {
           className: "mx-5",
           style: {
             width: "48px",
@@ -4235,7 +4235,10 @@ function Projects() {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Body, {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Title, {
-            children: "Job Monitor ( Coming soon )"
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
+              href: "https://jobmonitor.ryanfulton.co",
+              children: "JobMonitor"
+            })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Text, {
             children: "Web App to monitor job applications. Built with Laravel and React."
           })]
